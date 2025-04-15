@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-top: 10px;
+  }
+  
+  form input, form textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4a148c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    table th, table td {
+      font-size: 14px;
+    }
+  
+    form input, form textarea {
+      width: 100%;
+    }
+  }
